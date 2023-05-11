@@ -6,7 +6,7 @@ use Illuminate\Console\Command;
 
 class LaravelNestedCategoryCommand extends Command
 {
-    public $signature = 'laravel-nested-category';
+    public $signature = 'laravel-nested-category:install';
 
     public $description = 'My command';
 
