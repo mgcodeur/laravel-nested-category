@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Mgcodeur\LaravelNestedCategory\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelNestedCategoryCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-nested-category';
 
     public $description = 'My command';
 

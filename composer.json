@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "mgcodeur/laravel-nested-category",
+    "description": "This is my package laravel-nested-category",
     "keywords": [
-        ":vendor_name",
+        "mgcodeur",
         "laravel",
-        ":package_slug"
+        "laravel-nested-category"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/mgcodeur/laravel-nested-category",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "mgcodeur",
+            "email": "mgcodeur@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Mgcodeur\\LaravelNestedCategory\\": "src/",
+            "Mgcodeur\\LaravelNestedCategory\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Mgcodeur\\LaravelNestedCategory\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Mgcodeur\\LaravelNestedCategory\\LaravelNestedCategoryServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelNestedCategory": "Mgcodeur\\LaravelNestedCategory\\Facades\\LaravelNestedCategory"
             }
         }
     },
