@@ -2,9 +2,9 @@
 
 namespace Mgcodeur\LaravelNestedCategory;
 
+use Mgcodeur\LaravelNestedCategory\Commands\LaravelNestedCategoryCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Mgcodeur\LaravelNestedCategory\Commands\LaravelNestedCategoryCommand;
 
 class LaravelNestedCategoryServiceProvider extends PackageServiceProvider
 {
